@@ -25,14 +25,13 @@ def main():
     print("Setting up RAG chain...")
     rag_chain = create_rag_chain(vectorstore)
 
-    print("Welcome to the xAI FAQ RAG System! Ask a question (or type 'quit' to exit):")
-    while True:
-        query = input("> ")
-        if query.lower() == 'quit':
+    print("Welcome to the xAI FAQ RAG System! Ask a question (or type '/quit' or '/bye' to exit):")
+    while query := input("> "):
+        if query.lower() == '/quit' or query.lower() == '/bye':
             break
-        
-        response = rag_chain.run(query)
+        response = rag_chain(query)
         print(response)
+    print("Goodbye!")
 
 if __name__ == "__main__":
     main()

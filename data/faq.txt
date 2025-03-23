@@ -1,0 +1,10 @@
+xAI FAQ
+
+1. What is xAI's mission?
+xAI's mission is to accelerate human scientific discovery and advance our collective understanding of the universe.
+
+2. What products does xAI build?
+xAI develops artificial intelligence tools, including Grok, a conversational AI designed to provide helpful and truthful answers.
+
+3. How does Grok work?
+Grok uses advanced machine learning techniques to understand and respond to a wide range of questions, often with a unique outside perspective on humanity.

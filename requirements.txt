@@ -4,5 +4,4 @@ langchain_community==0.0.20
 tiktoken==0.5.2
 langchainhub==0.1.14
 chromadb==0.4.22
-cohere==4.45
 python-dotenv==0.19.0
